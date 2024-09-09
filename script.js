@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const colorBox = document.getElementById('colorBox');
 
     function updateColor() {
+        // Más cambios del codigo
         const r = parseInt(redRange.value);
         const g = parseInt(greenRange.value);
         const b = parseInt(blueRange.value);
